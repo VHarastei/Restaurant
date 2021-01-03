@@ -1,12 +1,4 @@
 # Restaurant
 Project from The Odin Project curriculum.
 
-Features:
-Responsive design
-Navigation Tabs
-Built with:
-HTML
-CSS
-JavaScript
-Webpack
-
+Restaurant page built with ES6 modules, using webpack.
