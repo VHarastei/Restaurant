@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Belleza';
+    src: url('https://fonts.gstatic.com/s/belleza/v9/0nkoC9_pNeMfhX4BhcH4ag.woff2')
+  }
+body {
+    margin: 0;
+    /* height: 100vh; */
+    /* background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; 
+    background-size: cover; */
+    font-family: 'Belleza';
+
+}
+#content {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+#nav {
+    z-index: 1001;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    position: fixed;
+    justify-content:center;
+    
+    opacity: 0.6;
+    background-color:white;
+
+    /* background-color: rgba(255, 255, 255, 0.116); */
+}  
+#nav button {
+    display: inline;
+    height: 100%;
+    padding: 0 1em;
+
+
+    align-items:center;
+    font-size:1.8em;
+    background:none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid rgba(110,110,110,0.5);
+    color:#4f973c;
+    background-color:white;
+
+    
+}
+#nav button:hover {
+    cursor:pointer;
+    transition: 0.3s;
+    color: white;
+    background-color: #4f973c;
+} 
+  
+#nav .active {
+    color: #4f973c;
+}
+
+.home-page {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    color:gray;
+    justify-content:center;
+    padding-right: 100px;
+}
+.home-page  h1{
+    font-size:6em;
+    margin: 0;
+    margin-top: 200px;
+    color: #4f973c;
+}
+.home-page p{
+    font-size:2em;
+    
+}
+
+/* .pop-up{
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+} */
+
+.menu-page {
+    
+    /* position: relative;  */
+    /* top: 70px; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../images/222.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+
+}
+.menu-page  h1{
+    padding-top: 70px;
+    /* margin: 70px; */
+    font-size:3em;
+    color: #4f973c;
+    text-align: center;
+    margin-block-start: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+
+    /* background-color: green; */
+}
+
+.list-item {
+    /* background-color: red; */
+    width: 400px;
+    height: 450px;
+    margin: 20px;
+}
+
+.list-item img {
+    width: 400px;
+
+}
+.list-item h1 {
+    padding: 0;
+    color: #4f973c;
+    margin: 0;
+    font-size: 36px;
+}
+.item-description {
+    color: gray;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.list-item button {
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding: 4px 48px;
+    font-size: 24px;
+    border: 2px solid #4f973c;
+    border-radius: 6px;
+    color: #4f973c;
+    outline: none;
+}
+.list-item button:hover {
+    transition: 0.3s;
+    color: white;
+    background-color: #4f973c;
+}
+
+.item-price {
+    color: #4f973c;
+    display: inline;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.contact-us-page {
+    
+    /* position: relative;  */
+    /* top: 70px; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color:gray;
+    justify-content:center;
+}
+.contact-info {
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+.contact-info div{
+    padding: 5px;
+    
+}
+.contact-info i{
+    color: #4f973c;
+}
+
+.contact-us-page h1 {
+    padding-top: 70px;
+    /* margin: 70px; */
+    font-size:3em;
+    color: #4f973c;
+    text-align: center;
+    margin-block-start: 0;
+}
+
+
+
+
+
+
+#footer {
+    height:3.5vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    max-width:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+    padding: 0 1em;
+    box-sizing:border-box;
+    background-color: white;
+    opacity: 0.6;
+    z-index: 101;
+    position: fixed;
+}
+#footer h1 {
+    color: #4f973c;
+}
